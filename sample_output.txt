@@ -1,0 +1,98 @@
+Here are the sample outputs:
+
+*** pc.c ***
+
+Producer Wait Counter: 17
+Consumer Wait Counter: 21
+Histogram of the values that items takes on: 
+Items = 0 Times = 24
+Items = 1 Times = 50
+Items = 2 Times = 42
+Items = 3 Times = 33
+Items = 4 Times = 33
+Items = 5 Times = 29
+Items = 6 Times = 43
+Items = 7 Times = 53
+Items = 8 Times = 43
+Items = 9 Times = 35
+Items = 10 Times = 15
+Total changes to items: 400
+The Pool: 0
+
+
+*** smoke.c ***
+NOTE: Sample of 10 iterations included to keep it short.
+
+n=2
+Tobacco and paper available. 
+Matches-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+The agent was signalled by the tobacco smoker.
+Tobacco-possessing smoker is waiting.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+The agent was signalled by the matches smoker.
+Matches-possessing smoker is waiting.
+n=2
+Tobacco and paper available. 
+Matches-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Matches-possessing smoker is smoking.
+The agent was signalled by the matches smoker.
+Matches-possessing smoker is waiting.
+n = 1
+Tobacco and matches available. 
+Paper-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Paper-possessing smoker is smoking.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+n = 1
+Tobacco and matches available. 
+Paper-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Paper-possessing smoker is smoking.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+n = 0
+Paper and matches available. 
+Tobacco-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Tobacco-possessing smoker is smoking.
+The agent was signalled by the tobacco smoker.
+Tobacco-possessing smoker is waiting.
+n = 1
+Tobacco and matches available. 
+Paper-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Paper-possessing smoker is smoking.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+n = 1
+Tobacco and matches available. 
+Paper-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Paper-possessing smoker is smoking.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+n=2
+Tobacco and paper available. 
+Matches-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Matches-possessing smoker is smoking.
+The agent was signalled by the matches smoker.
+Matches-possessing smoker is waiting.
+n = 1
+Tobacco and matches available. 
+Paper-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Paper-possessing smoker is smoking.
+The agent was signalled by the paper smoker.
+Paper-possessing smoker is waiting.
+n=2
+Tobacco and paper available. 
+Matches-possessing smoker signalled.
+The agent is waiting for the smoker to smoke.
+Matches-possessing smoker is smoking.
+The agent was signalled by the matches smoker.
+Matches-possessing smoker is waiting.
